@@ -197,14 +197,14 @@ class FormViewController: UIViewController {
         button.setTitle("Salvar", for: .normal)
         button.setTitleColor(.systemBackground, for: .normal)
         button.backgroundColor = .orange
-        button.layer.cornerRadius = 10
+        button.layer.cornerRadius = 20
         button.addTarget(self, action: #selector(salvarButtonTapped(sender:)), for: .touchUpInside)
         
         return button
     }()
     
     
-    //MARK: - Implements functionality
+//MARK: - Implements functionality
     typealias ValidationMessasge = String
     
     override func viewDidLoad() {
